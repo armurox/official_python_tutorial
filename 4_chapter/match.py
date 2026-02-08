@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from point import Point
 
 def main():
@@ -42,7 +43,7 @@ def show_point_with_classes(point: Point) -> None:
             print('Origin')
         case Point(x=0, y=y):
             print(f'Y={y}')
-        case Point(x=x, y=0):
+        case Point(x, 0):
             print(f'X={x}')
         case Point(x=x, y=y):
             print(f'X={x}. Y={y}')
